@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="zh-Han">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法老王</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Plugins -->
+
+    <!-- mystyles CSS -->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+
+    <!--animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Push CSS Stylesheet -->
+    <link href="css/push.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!-- Left PUSH sidebar -->
+<nav class="push-sidebar hidden" id="sidebar-left">
+    <ul class="nav nav-pills nav-stacked sidebar">
+
+        <!-- Right sidebar header -->
+
+        <li class="l_m_1">
+            <a href="login.html">
+                <i></i>登入
+            </a>
+        </li>
+
+        <!-- Main links -->
+        <li class="l_m_2 active">
+            <a href="index.html">
+                <i></i>首頁
+            </a>
+        </li>
+
+        <li class="l_m_3">
+            <a href="sportevent.html">
+                <i></i>賽事列表
+            </a>
+        </li>
+        <li class="l_m_4">
+            <a href="newslist.html">
+                <i></i>最新公告
+            </a>
+        </li>
+
+        <li class="l_m_5">
+            <a href="bet_detail.html">
+                <i></i>投注明細
+            </a>
+        </li>
+        <li class="l_m_6">
+            <a href="event.html">
+                <i></i>訊息通知
+            </a>
+        </li>
+        <li class="l_m_7">
+            <a href="member.html">
+                <i></i>帳戶資訊
+            </a>
+        </li>
+        <li class="l_m_8">
+            <a href="betresults.html">
+                <i></i>賽事結果
+            </a>
+        </li>
+        <li class="l_m_9">
+            <a href="currencysetting.html">
+                <i></i>投注設定
+            </a>
+        </li>
+        <li class="l_m_9-2">
+            <a href="memberInfo.html">
+                <i></i>賽事設定
+            </a>
+        </li>
+        <li class="l_m_10">
+            <a href="language.html">
+                <i></i>語言
+            </a>
+        </li>
+        <li class="l_m_11">
+            <a href="#">
+                <i></i>登出
+            </a>
+        </li>
+        <li class="l_m_12">
+            <a href="#">
+                <i></i>法老王娛樂城
+            </a>
+        </li>
+    </ul>
+</nav>
+<nav class="navbar navbar-inverse navbar-fixed-top app-navbar text-center">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <button type="button" class="btn menuSwitch pull-left" data-toggle="push" data-target="#sidebar-left"
+            data-distance="250" title="Open left navigation">
+        <img src="images/icon/menuSwitch.png" alt=""/></button>
+
+    <span class="pull-left"><a class="Betdetail" href="bet_detail.html"><img src="images/icon/Betdetail.png"
+                                                                             alt=""/></a></span>
+
+    <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt=""></a>
+
+
+    <span class="pull-right"><a href="bet.html" class="betSlip"><img src="images/icon/bottomSlipIcon.png"
+                                                                     alt=""/><i>5</i></a></span>
+    <span class="pull-right"><div class="betpoint">
+        <t>NTD</t>
+        <div>8,888</div>
+    </div></span>
+
+
+    <!--login_dialog end-->
+</nav>
+<!--nav end-->
+<!-- Modal -->
+
+
+<section class="canvas" id="canvas">
+    <div class="page_title">
+        <span>投 注</span>
+    </div>
+    <main class="">
+
+
+        <div class="Order_box">
+
+
+            <div class="panel with-nav-tabs panel-Order">
+                <div class="panel-heading">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab2Order" data-toggle="tab" aria-expanded="true">單式</a></li>
+                        <li class=""><a href="#tab1Order" data-toggle="tab" aria-expanded="false">過關</a></li>
+                        <li class=""><a href="#tab3Order" data-toggle="tab" aria-expanded="false">投注列表</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="tab2Order">
+                           <div class="order_box_group-20">
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <input id="checkorder1" type="checkbox" checked="">
+
+                                <label for="checkorder1">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                    <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                    <span class="market">全場 - 讓分</span>
+                                    <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                </label>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                            </div>
+                            <!-- new_order_list ed -->
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <input id="checkorder1" type="checkbox" checked="">
+
+                                <label for="checkorder1">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                    <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                    <span class="market">全場 - 讓分</span>
+                                    <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                </label>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                            </div>
+                            <!-- new_order_list ed -->
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <input id="checkorder1" type="checkbox" checked="">
+
+                                <label for="checkorder1">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                    <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                    <span class="market">全場 - 讓分</span>
+                                    <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                </label>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                            </div>
+                            <!-- new_order_list ed -->
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <input id="checkorder1" type="checkbox" checked="">
+
+                                <label for="checkorder1">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                    <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                    <span class="market">全場 - 讓分</span>
+                                    <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                </label>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                            </div>
+                            <!-- new_order_list ed -->
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <input id="checkorder1" type="checkbox" checked="">
+
+                                <label for="checkorder1">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                    <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                    <span class="market">全場 - 讓分</span>
+                                    <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                </label>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                            </div>
+                            <!-- new_order_list ed -->
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <input id="checkorder2" type="checkbox">
+
+                                <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                    <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                    <span class="market">全場 - 讓分</span>
+                                    <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                </label>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                            </div>
+                           </div>
+                            <!-- new_order_list ed -->
+                            <div class="order_fixed">
+                                <div class="Win_amount">
+                                    <span>可贏金額</span>
+                                    <span class="price ">500</span>
+                                </div>
+                                <div class="amount_info">
+                                    <span>單注下限 <b>200</b></span>
+                                    <span>單注上限 <b>10000</b></span>
+                                    <span>單場上限 <b>20000</b></span>
+                                </div>
+                                <div class="order_bt">
+                                    <a class="btn btn-betting2" href="#" role="button">
+                                        投注
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 1 -->
+
+                        <div class="tab-pane fade" id="tab1Order">
+                            <div class="order_box_group-10">
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder1" type="checkbox" checked="">
+
+                                    <label for="checkorder1">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+                                </div>
+                                <!-- new_order_list ed -->
+
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+
+                                <div class="new_order_list checkbox checkbox-warning">
+                                    <input id="checkorder2" type="checkbox" checked="">
+
+                                    <label for="checkorder2">
+                                                <span class="order_delete">
+                                                  <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+                                                </span>
+                                        <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                        <span class="market">全場 - 讓分</span>
+                                        <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+                                    </label>
+
+                                </div>
+                                <!-- new_order_list ed -->
+                            </div>
+
+                            <div class="order_fixed">
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                               <span class="price">
+                                                <input type="text" class="form-control" placeholder="">
+                                                </span>
+                                </div>
+                                <div class="Win_amount">
+                                    <span>可贏金額</span>
+                                    <span class="price ">500</span>
+                                </div>
+                                <div class="amount_info">
+                                    <span>單注下限 <b>200</b></span>
+                                    <span>單注上限 <b>10000</b></span>
+                                    <span>單場上限 <b>20000</b></span>
+                                </div>
+                                <div class="order_bt">
+                                    <a class="btn btn-betting2" href="#" role="button">
+                                        投注
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+
+                        <div class="tab-pane fade" id="tab3Order">
+
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <span class="event">2017 / 1 /20</span>
+                                <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                <span class="market">全場 - 讓分</span>
+                                <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                                 <span class="price">
+                                                  200
+                                                  </span>
+                                </div>
+                                <div class="Order_amount_win">
+                                    <span>可贏金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+
+                            </div>
+                            <!-- new_order_list ed -->
+
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <span class="event">2017 / 1 /20</span>
+                                <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                <span class="market">全場 - 讓分</span>
+                                <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+                                <div class="Order_amount_win">
+                                    <span>可贏金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+
+                            </div>
+                            <!-- new_order_list ed -->
+
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <span class="event">2017 / 1 /20</span>
+                                <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                <span class="market">全場 - 讓分</span>
+                                <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+                                <div class="Order_amount_win">
+                                    <span>可贏金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+
+                            </div>
+                            <!-- new_order_list ed -->
+
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <span class="event">2017 / 1 /20</span>
+                                <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                <span class="market">全場 - 讓分</span>
+                                <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+                                <div class="Order_amount_win">
+                                    <span>可贏金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+
+                            </div>
+                            <!-- new_order_list ed -->
+
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <span class="event">2017 / 1 /20</span>
+                                <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                <span class="market">全場 - 讓分</span>
+                                <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+                                <div class="Order_amount_win">
+                                    <span>可贏金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+
+                            </div>
+                            <!-- new_order_list ed -->
+
+                            <div class="new_order_list checkbox checkbox-warning">
+                                <span class="event">2017 / 1 /20</span>
+                                <span class="event">FC羅斯托夫 -  AC布拉格斯巴達</span>
+                                <span class="market">全場 - 讓分</span>
+                                <span class="pick">FC羅斯托夫 <span class="odds">1.85</span></span>
+
+                                <div class="Order_amount">
+                                    <span>投注金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+                                <div class="Order_amount_win">
+                                    <span>可贏金額</span>
+                                                 <span class="price">
+                                                    200
+                                                  </span>
+                                </div>
+
+                            </div>
+                            <!-- new_order_list ed -->
+                        </div>
+                        <!-- 3 -->
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+</section>
+<!--main end-->
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="admodal-container">
+
+
+            <div class="modal-header">
+                <h4 class="modal-title">美棒</h4>
+            </div>
+
+            <div class="modal-body">
+                <ul class="gamelist">
+                    <li><a href="">臺灣 <span>(10)</span><i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="">日本 <span>(10)</span><i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="">美洲 <span>(10)</span><i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal"></button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Jquery and Bootstap core js files -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+<!-- The push plugin JavaScript -->
+<script src="js/push.js"></script>
+
+<!-- Modernizr javascript -->
+<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+<!-- Initialization of Plugins -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
