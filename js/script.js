@@ -2,7 +2,7 @@
 
 
 // 滾動menu 改變
-$(function() {
+$(document).bind(function() {
     $window = $(window);
     $(window).scroll(function() {
 
@@ -16,7 +16,7 @@ $(function() {
 });
 
 // back-top-js
-$(function() {
+$(document).bind(function() {
     // hide #back-top first
     $("#back-top").hide();
 
