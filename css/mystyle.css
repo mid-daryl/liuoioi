@@ -9,11 +9,8 @@ body.x-ios {
    cursor: default;
 }
 body {
-	line-height: 1;
-	min-height:100%;
     margin: 0;
     padding: 0;
-	height:100% !important;
     font-size: 15px;
     font-family: \5FAE\8EDF\6B63\9ED1\9AD4, Microsoft, Arial, Helvetica, sans-serif;	
 }
