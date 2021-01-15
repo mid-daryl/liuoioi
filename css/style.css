@@ -2187,6 +2187,7 @@ footer {
   font-weight: 400;
 }
 
+
 /*電子遊戲內頁 start*/
 .slot-box .photo {
   position: relative;
@@ -2395,13 +2396,164 @@ footer {
   margin-bottom: 30px;
 }
 
+/********chess**********/
+
+.chess-banner-container .banner-img {
+	background: url(../img/chess/banner.png) center center / cover rgb(0, 0, 0);
+}
+
+.chess .item-bg1 {
+	background-image: url(../img/chess/chinniubanner.jpg);
+}
+.chess .item-bg2 {
+	background-image: url(../img/chess/chinniubanner.jpg);
+}
+
+.chess-right {
+	overflow: hidden;
+}
+
+.chess-right>.chess-list {
+	box-shadow: 0 0 15px #ddd;
+}
+
+.win-info.main {
+	padding: 7px 10px 0 10px;
+	border-bottom: 1px solid #eaeaea;
+	height: 35px;
+	position: relative;
+	line-height: 40px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background: #c0c4cc17;
+}
+
+.cursor.marquee.marquee-li {
+	padding: 7px 10px 0 10px;
+	border-bottom: 1px dotted #eaeaea;
+	height: 35px;
+	position: relative;
+	font-size: 100%;
+	font: inherit;
+	list-style-type: none;
+}
+
+.plate-down-content>ul {
+	padding-inline-start: 0;
+}
+
+.chess>.chess-right {
+	padding-left: 20px;
+}
+
+.container-chess {
+	height: 20em;
+	overflow: hidden;
+	background: white;
+	position: relative;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.plate-down-content>.left-marquee {
+	top: 6em;
+	position: relative;
+	box-sizing: border-box;
+	animation: marquee 10s linear infinite;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.plate-down-content>.left-marquee:hover {
+	animation-play-state: paused;
+}
+
+
+/* Make it move! */
+
+@keyframes marquee {
+	0% {
+		top: 0em
+	}
+	100% {
+		top: -13em
+	}
+}
+
+.chess-banner-container {
+	width: 100%;
+	height: 440px;
+}
+
+.text-fill:before {
+	content: "";
+	background: #409EFF;
+	left: 0;
+	padding-left: 5px;
+	position: relative;
+	margin: 0px 7px 0px 0px;
+}
+
+.text-fill {
+	margin: 12px 0px;
+}
+
+.chess>.el-col>.el-card .img {
+	width: 100%;
+	height: 270px;
+	background-size: cover;
+	background-position: top;
+}
+
+.chess .chess-right-img .chess-item-logo {
+	width: 110px;
+	height: 110px;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 30px auto 0px;
+}
+
+.chess .chess-item-logo.vg {
+	background-image: url(../img/chess/vglogo.png);
+}
+.chess .chess-item-logo.chinniu {
+	background-image: url(../img/chess/chinniulogo.png);
+}
+
+.chess .chess-left-txt {
+	margin-top: 25px;
+	padding-left: 30px;
+	border-left: 1px solid #ddd;
+}
+
+.chess .chess-item-txt {
+	padding: 10px 0px 10px 5px;
+	width: 90%;
+	text-align: left;
+	line-height: 24px;
+	color: #666;
+}
+
+.chess .el-button--medium {
+	font-size: 15px;
+}
+
+.chess>.el-col>.el-card {
+	padding: 20px 20px 40px;
+	box-shadow: 0 0 15px #ddd;
+	margin-bottom: 10px;
+}
+
+
 /***********av****************/
 
 .av-banner-container .banner-img {
   background: url(../img/av/banner.jpg) center center / cover rgb(0, 0, 0);
 }
 
-.item-bg1 {
+.av .item-bg1 {
   background-image: url(../img/av/av-banner.jpg);
 }
 
